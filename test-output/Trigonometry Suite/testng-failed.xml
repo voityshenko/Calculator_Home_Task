@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Trigonometry Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Tangent Test(failed)">
+    <classes>
+      <class name="tests.TangentTests">
+        <methods>
+          <include name="TangentTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TangentTests -->
+    </classes>
+  </test> <!-- Tangent Test(failed) -->
+</suite> <!-- Failed suite [Trigonometry Suite] -->

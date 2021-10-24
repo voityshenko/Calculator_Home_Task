@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Algebraic Suite">
+    <test name="Sum Test" allow-return-values="true">
+        <classes>
+            <class name="tests.SumDoubleValuesTests"/>
+        </classes>
+    </test>
+    <test name="Sum Test for long values" allow-return-values="true">
+        <classes>
+            <class name="tests.SumLongValuesTests"/>
+        </classes>
+    </test>
+    <test name="Sub Test" allow-return-values="true">
+        <classes>
+            <class name="tests.SubDoubleValuesTests"/>
+        </classes>
+    </test>
+    <test name="Sub Test for long values" allow-return-values="true">
+        <classes>
+            <class name="tests.SubLongValuesTests"/>
+        </classes>
+    </test>
+    <test name="Div Test for long values" allow-return-values="true">
+        <groups>
+            <run>
+                <exclude name="negativeTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.DivLongValuesTests"/>
+        </classes>
+    </test>
+    <test name="Div Test" allow-return-values="true">
+        <classes>
+            <class name="tests.DivDoubleValuesTests"/>
+        </classes>
+    </test>
+    <test name="Multiple Test" allow-return-values="true">
+        <classes>
+            <class name="tests.MultipleDoubleValuesTests"/>
+        </classes>
+    </test>
+    <test name="Multiple Test for long values" allow-return-values="true">
+        <classes>
+            <class name="tests.MultipleLongValuesTests"/>
+        </classes>
+    </test>
+    <test name="Pow Test" allow-return-values="true">
+        <classes>
+            <class name="tests.PowTests"/>
+        </classes>
+    </test>
+    <test name="Sqrt Test" allow-return-values="true">
+        <classes>
+            <class name="tests.SqrtTests"/>
+        </classes>
+    </test>
+</suite>

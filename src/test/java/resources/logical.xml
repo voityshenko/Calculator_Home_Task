@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Logical Suite" parallel="classes" thread-count="2">
+    <test name="IsPositive Test">
+        <classes>
+            <class name="tests.IsPositiveTests"/>
+        </classes>
+    </test>
+    <test name="IsNegative Test">
+        <classes>
+            <class name="tests.IsNegativeTests"/>
+        </classes>
+    </test>
+</suite>

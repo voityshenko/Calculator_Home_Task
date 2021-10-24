@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trigonometry Suite" parallel="classes" thread-count="2">
+    <test name="Ctg Test">
+        <classes>
+            <class name="tests.CtgTests"/>
+        </classes>
+    </test>
+    <test name="Sin Test">
+        <classes>
+            <class name="tests.SinTests"/>
+        </classes>
+    </test>
+    <test name="Tangent Test">
+        <classes>
+            <class name="tests.TangentTests"/>
+        </classes>
+    </test>
+</suite>
